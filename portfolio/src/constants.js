@@ -30,19 +30,14 @@ import jnv from './assets/education_logo/jnv.1.jpg';
 import iet from './assets/education_logo/iet.1.jpg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+
 import github from './assets/work_logo/git-hub.png';
 import courseLogo from './assets/work_logo/course-selling-app.png';
 import blogLogo from './assets/work_logo/yt-blog.png';
 import scoringLogo from './assets/work_logo/scoring-game.png';
+import convoLogo from './assets/work_logo/convo-app.png';
+import recipeLogo from './assets/work_logo/food-recipe.png';
+import reservationLogo from './assets/work_logo/reservation-restaurant.png';
 
 
 
@@ -151,8 +146,19 @@ export const SkillsInfo = [
       github: "https://github.com/Riteshkumar2204/YouTube-Blog-App",
       webapp: "http://youtube-blog-app.vercel.app",
     },
-      {
+    {
       id: 2,
+      title: "Restaurant Reservation",
+      description:
+        "Skip the wait and book your table in seconds! Our easy-to-use reservation system lets you secure a table at your favorite restaurant with your preferred date and time — anytime, anywhere. Whether you're planning a romantic dinner, a family gathering, or a business lunch, just pick your date, choose your time slot, and we’ll take care of the rest.",
+      image: reservationLogo,
+      tags: ["React JS", "API", "Node.js" , "Tailwind CSS" , "JavaScript" , "Express" , "MongoDB"],
+      github: "https://github.com/Riteshkumar2204/Restaurant-Reservation",
+      webapp: "https://restaurant-reservation-lyart.vercel.app//",
+    },
+    
+      {
+      id: 3,
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -162,7 +168,7 @@ export const SkillsInfo = [
       webapp: "https://github-searsh.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Scoring Game",
       description:
         "Scoring Game is a fun and interactive web application where players solve math-based puzzles to earn points and climb the leaderboard. The game tests your arithmetic skills, logical thinking, and speed through a variety of challenges ranging from basic operations to brain-teasing number puzzles.",
@@ -171,4 +177,25 @@ export const SkillsInfo = [
       github: "https://github.com/Riteshkumar2204/Mini-Projects/tree/main/scoring%20game",
       webapp: "https://task-game.netlify.app/",
     },
+     {
+      id: 5,
+      title: "Convo App – Word to PDF Converter",
+      description:
+        "Convo App is a user-friendly application designed to help users quickly and easily convert text or Word documents into high-quality PDF files. Whether you're working on a report, resume, notes, or any kind of document, Convo App streamlines the conversion process and delivers reliable results in seconds.",
+      image: convoLogo,
+      tags: ["React JS", "API", "Node.js" , "Tailwind CSS" , "JavaScript" , "Express" , "MongoDB"],
+      github: "https://github.com/Riteshkumar2204/convo-app",
+      webapp: "https://convo-app-nu.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Food Recipe App",
+      description:
+        "Welcome to Food Recipe App, your personal kitchen companion! Here, users can log in securely to access and explore a wide variety of tasty, step-by-step recipes. From quick snacks to gourmet meals, every recipe is carefully shared for food lovers like you.",
+      image: recipeLogo,
+      tags: ["React JS", "API", "Node.js" , "Tailwind CSS" , "JavaScript" , "Express" , "MongoDB"],
+      github: "https://github.com/Riteshkumar2204/Food-Recipe-App",
+      webapp: "https://github.com/Riteshkumar2204/Food-Recipe-App",
+    },
+    
   ]
