@@ -99,7 +99,7 @@ export const SkillsInfo = [
       img: iet,
       school: "Institute of Engineering & Technology, Lucknow",
       date: "2023 - 2027",
-      grade: "7.96 Current CGPA",
+      grade: "8.001 Current CGPA",
       desc: "I am currently pursuing my Bachelor of Technology (B.Tech) in Computer Science and Engineering  With AI from IET , Lucknow. Throughout my 2 years of journey, I have built a solid foundation in programming, problem-solving, and core computer science concepts. My coursework includes subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Web Development.",
       degree: "Bachelor of Technology - Computer Science(AI)",
     },
