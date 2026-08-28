@@ -38,6 +38,7 @@ import scoringLogo from './assets/work_logo/scoring-game.png';
 import convoLogo from './assets/work_logo/convo-app.png';
 import recipeLogo from './assets/work_logo/food-recipe.png';
 import reservationLogo from './assets/work_logo/reservation-restaurant.png';
+import AivideoassLogo from './assets/work_logo/ai_video_ass.png';
 
 
 
@@ -99,7 +100,7 @@ export const SkillsInfo = [
       img: iet,
       school: "Institute of Engineering & Technology, Lucknow",
       date: "2023 - 2027",
-      grade: "8.001 Current CGPA",
+      grade: "8.14 Current CGPA",
       desc: "I am currently pursuing my Bachelor of Technology (B.Tech) in Computer Science and Engineering  With AI from IET , Lucknow. Throughout my 2 years of journey, I have built a solid foundation in programming, problem-solving, and core computer science concepts. My coursework includes subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Web Development.",
       degree: "Bachelor of Technology - Computer Science(AI)",
     },
@@ -125,9 +126,20 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+
+     {
+      id: 0,
+      title: "Ai Video Assistant",
+      description:
+        "Developed an AI-powered video assistant that processes YouTube videos and local audio/video files, converts speech to text using Whisper, and generates concise summaries, titles, action items, key decisions, and open questions. Implemented RAG-based conversational querying, allowing users to ask questions and interact with video content through an intelligent AI assistant.",
+      image: AivideoassLogo,
+      tags: ["Python", "Streamlit", "Whisper", "LangChain", "Mistral AI", "ChromaDB", "yt-dlp", "FFmpeg", "Hugging Face", "RAG", "LLM", "API"],
+      github: "https://github.com/Riteshkumar2204/-AI-Video-Assistant",
+      webapp: "https://aivideoassistance.streamlit.app/",
+    },
   
     {
-      id: 0,
+      id: 1,
       title: "Course Selling App",
       description:
         "Developed a full-stack web application for online course selling . The platform allows only admins to create, update, or manage courses, ensuring secure and controlled content management. Users can browse and view available courses, but cannot modify or upload any content. Implemented user authentication, admin authorization, and a clean, responsive UI for seamless user experience.",
@@ -137,7 +149,7 @@ export const SkillsInfo = [
       webapp: "http://course-selling-app-one-jade.vercel.app",
     },
     {
-      id: 1,
+      id: 2,
       title: "YouTube Blog App",
       description:
         "Designed and built a blogging application focused on  content, allowing admins to publish and manage blogs with dashboard integration. Regular users have read-only access to explore the blogs. Emphasized clean UI, efficient routing, and role-based permissions using the MERN stack.",
@@ -147,7 +159,7 @@ export const SkillsInfo = [
       webapp: "http://youtube-blog-app.vercel.app",
     },
     {
-      id: 2,
+      id: 3,
       title: "Restaurant Reservation",
       description:
         "Skip the wait and book your table in seconds! Our easy-to-use reservation system lets you secure a table at your favorite restaurant with your preferred date and time — anytime, anywhere. Whether you're planning a romantic dinner, a family gathering, or a business lunch, just pick your date, choose your time slot, and we’ll take care of the rest.",
@@ -158,7 +170,7 @@ export const SkillsInfo = [
     },
     
       {
-      id: 3,
+      id: 4,
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -168,7 +180,7 @@ export const SkillsInfo = [
       webapp: "https://github-searsh.netlify.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Scoring Game",
       description:
         "Scoring Game is a fun and interactive web application where players solve math-based puzzles to earn points and climb the leaderboard. The game tests your arithmetic skills, logical thinking, and speed through a variety of challenges ranging from basic operations to brain-teasing number puzzles.",
@@ -178,7 +190,7 @@ export const SkillsInfo = [
       webapp: "https://task-game.netlify.app/",
     },
      {
-      id: 5,
+      id: 6,
       title: "Convo App – Word to PDF Converter",
       description:
         "Convo App is a user-friendly application designed to help users quickly and easily convert text or Word documents into high-quality PDF files. Whether you're working on a report, resume, notes, or any kind of document, Convo App streamlines the conversion process and delivers reliable results in seconds.",
@@ -188,7 +200,7 @@ export const SkillsInfo = [
       webapp: "https://convo-app-nu.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Food Recipe App",
       description:
         "Welcome to Food Recipe App, your personal kitchen companion! Here, users can log in securely to access and explore a wide variety of tasty, step-by-step recipes. From quick snacks to gourmet meals, every recipe is carefully shared for food lovers like you.",
