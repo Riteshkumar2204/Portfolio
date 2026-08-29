@@ -21,6 +21,19 @@ import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import streamlit from './assets/tech_logo/streamlit.png';
+import whisper from './assets/tech_logo/whisper.png';
+import langchain from './assets/tech_logo/langchain.png';
+import mistral_ai from './assets/tech_logo/mistral_ai.png';
+import chroma_db from './assets/tech_logo/chroma_db.png';
+import RAG from './assets/tech_logo/RAG.png';
+import LLM from './assets/tech_logo/LLM.png';
+import API from './assets/tech_logo/API.png';
+
+
+
+
+
 
 
 
@@ -79,11 +92,25 @@ export const SkillsInfo = [
     ],
   },
   {
+    title: 'AI technologies',
+    skills: [
+      { name: 'RAG', logo: RAG },
+      { name: 'LLM', logo: LLM },
+      { name: 'whisper', logo: whisper },
+      { name: 'Langchain', logo: langchain },
+      { name: 'Mistral Ai', logo: mistral_ai },
+      { name: 'Chroma DB', logo: chroma_db },
+      
+    ],
+  },
+  {
     title: 'Tools',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'API', logo: API },
+      { name: 'Streamlit', logo: streamlit },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
