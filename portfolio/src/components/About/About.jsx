@@ -25,10 +25,9 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                
-                'UI/UX Designer',
-                'Coder',
+                'Full Stack Developer',
+           'AI Developer',
+            'Problem Solver',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -41,15 +40,14 @@ const About = () => {
           </h3>
           
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-             I am a full-stack developer  with strong proficiency 
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+             I am an AI Software Developer with strong proficiency in building scalable web
+              applications and AI-powered solutions. Skilled in both front-end and back-end development,
+               I specialize in the MERN stack while leveraging LLMs, LangChain, RAG, OpenAI Whisper,
+                and ChromaDB to create intelligent applications, seamless user experiences, and efficient software solutions.
           </p>
           
           <a
-            href="https://drive.google.com/file/d/1L26cRvYvZVZ7f2fE2vPnoOKzLmKGWG8N/view?usp=sharing"
+            href="https://drive.google.com/file/d/1fw_Id9Cr5uotB8xnuSymTHAtcGPAA52v/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
